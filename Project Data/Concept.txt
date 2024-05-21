@@ -1,0 +1,14 @@
+Concept:
+
+2 people can send each other a messages
+
+Users data saving: 		users will be in memory
+Users: 				Stas and Ivan
+Where messages can be saved: 	all messages living in runtime
+Architecture API style:		REST
+Architecture:			Many Client-Server One
+
+
+Getting massages: 		GET /.../v1/.../username/messages
+Sending massages:		POST/.../v1/.../username1/send/username2
+				Data: user from: user to, message
