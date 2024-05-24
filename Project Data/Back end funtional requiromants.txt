@@ -1,0 +1,28 @@
+Functional requiromants:
+
+User data:
+id: long uniq
+username: str uniq
+firstname: str 32
+lastname: str 32
+phone number: str 
+about: str 255
+birthday: Timestamp
+list of contacts:
+list of messagemans:
+is online: bool
+list of massages per user
+
+Message:
+text: str
+sended: timestamp
+
+Functions:
+getting massages per user
+getting contacts per user
+getting messangmans per user
+getting user own info
+
+sending massage from one user to second user
+deleting massage (when sended nad not sended)
+edit message (when sended)
