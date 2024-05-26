@@ -1,34 +1,25 @@
 Functional requirements:
 
-Output:
-	User data:
-	 id;
-	 username;
-	 firstname;
-	 lastname;
-	 phone number;
-	 about;
-	 birthday;
-	 list of contacts;
-	 list of messagemans;
-	 is online;
-	 list of messages per user.
+Functions:
+ user login;
+ user exit;
+ open chat;
+ close chat;
+ sending a message to user;
+ deleting message;
+ edit message;
+ view contact information;
+ edit contact information;
 
-	Message:
-	 text;
-	 sended.
+System states;
 
-	Functions:
-	 user registration;
-	 user authorization;
-	 opening correspondence;
-	 closing correspondence;
-	 sending a message;
-	 display of last visit;
-	 view contact information;
-	 select emoticon.
+Technologies:
+ HTML5/CSS3/JS;
+ SCSS;
+ React;
+ Bootststrap;
 	 
-	Architectory specifics:
-	 sync messaging.
+Architectory specifics:
+sync messaging.
 	
 	
