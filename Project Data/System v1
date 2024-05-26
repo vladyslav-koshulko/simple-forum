@@ -1,0 +1,47 @@
+System v1
+
+login
+exit
+show user info/details
+edit user info/details
+
+api:
+.../login
+	method: GET
+	Descryption: get logging page
+
+.../login
+	method: POST
+	Descryption: sending request to loggin
+	Data: username, password
+
+.../{username}/exit
+	method: Get
+	Descryption: exit from account
+	Data: username or id
+
+.../{username}/details :how user info
+	method: Get
+	Descryption: getting page user details
+	Data: username or id
+
+.../{username}/details/edit :request to get possability to edit info
+	method: Get
+	Descryption: show edited user datails page
+	Data: username or id
+
+.../{username}/details/edit : saving edited user details
+	method: PUT or Patch
+	Descryption: send updated user dateils to server and save it
+	Data: 	username
+			password
+			firstname
+			lastname
+			phone
+			about
+			birthday
+
+.../{username}/chats/ :show available chats
+	method: Get
+	Descryption: Show home loggened page, when no one chat is not opened
+	Data: username

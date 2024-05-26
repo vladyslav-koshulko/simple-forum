@@ -1,5 +1,10 @@
 Functional requirements:
 
+1. Models
+2. Functions
+3. Technologies
+
+1. Models:
 User data:
 id: long uniq
 username: str uniq
@@ -17,7 +22,7 @@ Message:
 text: str
 sended: timestamp
 
-Functions:
+2. Functions:
 getting messages per user
 getting contacts per user
 getting messangmans per user
@@ -26,3 +31,9 @@ getting user own info
 sending message from one user to second user
 deleting message (when sended nad not sended)
 edit message (when sended)
+
+
+3 Technologies:
+Spring boot, 
+rest
+Spring secutiry
