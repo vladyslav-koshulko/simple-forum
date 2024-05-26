@@ -1,4 +1,4 @@
-Functional requiromants:
+Functional requirements:
 
 User data:
 id: long uniq
@@ -11,18 +11,18 @@ birthday: Timestamp
 list of contacts:
 list of messagemans:
 is online: bool
-list of massages per user
+list of messages per user
 
 Message:
 text: str
 sended: timestamp
 
 Functions:
-getting massages per user
+getting messages per user
 getting contacts per user
 getting messangmans per user
 getting user own info
 
-sending massage from one user to second user
-deleting massage (when sended nad not sended)
+sending message from one user to second user
+deleting message (when sended nad not sended)
 edit message (when sended)

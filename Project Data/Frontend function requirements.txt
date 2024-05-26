@@ -1,0 +1,34 @@
+Functional requirements:
+
+Output:
+	User data:
+	 id;
+	 username;
+	 firstname;
+	 lastname;
+	 phone number;
+	 about;
+	 birthday;
+	 list of contacts;
+	 list of messagemans;
+	 is online;
+	 list of messages per user.
+
+	Message:
+	 text;
+	 sended.
+
+	Functions:
+	 user registration;
+	 user authorization;
+	 opening correspondence;
+	 closing correspondence;
+	 sending a message;
+	 display of last visit;
+	 view contact information;
+	 select emoticon.
+	 
+	Architectory specifics:
+	 sync messaging.
+	
+	
